@@ -9,7 +9,7 @@ Just to speed up the combining procsess ,, its a "Pain in the ass" trying to wit
 
 -apt-get install jpeginfo
 -use catchfooter.sh to generate the images "./catchfooter.sh"
--check pics for the correct next part "ex. image name is 1800"
+-check pics for the correct next part inside the pics folder "ex. image name is 1800"
 -use add.sh to add next part "./add.sh 1800"
 -catchfooter.sh to generate the images, and check the next part
 -check ,add and repeat
