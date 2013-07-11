@@ -5,7 +5,7 @@ dird="data"
 dirh="h2txt"
 dirp="pic"
 next=""
-
+mkdir -p oheader h2txt data pics
 filelist=$(file $dird/*)
 echo $filelist
 filename=$(file $dird/* | cut -d : -f 1| cut -d / -f 2)
