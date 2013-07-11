@@ -44,16 +44,7 @@ echo $footer
 echo $header
 for d in $data; do
 	cp  oheader/$header.txt h2txt/$header.txt
-        cat h2txt/3326.txt >> h2txt/$header.txt
-cat h2txt/4603.txt >> h2txt/$header.txt
-cat h2txt/1700.txt >> h2txt/$header.txt
-cat h2txt/2737.txt >> h2txt/$header.txt
-cat h2txt/6576.txt >> h2txt/$header.txt
-cat h2txt/6823.txt >> h2txt/$header.txt
-cat h2txt/5471.txt >> h2txt/$header.txt
-cat h2txt/9316.txt >> h2txt/$header.txt
-cat h2txt/1186.txt >> h2txt/$header.txt
-	cat h2txt/$d >> h2txt/$header.txt
+      	cat h2txt/$d >> h2txt/$header.txt
 	cat h2txt/$footer.txt >> h2txt/$header.txt
 	xxd -r -p h2txt/$header.txt > pics/$d.jpeg
 	huffman=$(jpeginfo -c pics/$d.jpeg | grep "bad Huffman code")
