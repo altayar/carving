@@ -5,7 +5,7 @@ irc.freenode.net ##Defsec
 Just to speed up the combining proccess ,, its a "Pain in the ass" trying to without any tool
 
 *jpeginfo must be installed
-*Put the data files in the "data" folder
+*Put the data files in the "data" folder if there is no Folder make it
 
 -apt-get install jpeginfo
 -use catchfooter.sh to generate the images "./catchfooter.sh"
